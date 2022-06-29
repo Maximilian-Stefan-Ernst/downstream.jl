@@ -39,7 +39,7 @@ jobs:
           try
             # force it to use this PR's version of the package
             Pkg.add(url = "https://github.com/aaronpeikert/upstream.jl", rev = "main")
-            Pkg.test(coverage=true)  # resolver may fail with test time deps
+            # Pkg.test(coverage=true)  # resolver may fail with test time deps
           catch err
             err isa Pkg.Resolve.ResolverError || rethrow()
             # If we can't resolve that means this is incompatible by SemVer and this is fine
