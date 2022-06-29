@@ -4,8 +4,8 @@ julia_version = "1.7.3"
 manifest_format = "2.0"
 
 [[deps.upstream]]
-git-tree-sha1 = "ab3bef92dbfdeb321be3845c057fb2d24f6a32c7"
-repo-rev = "main"
+git-tree-sha1 = "37658c76ae2800b897f78a38d433cd4aa4bdb7f4"
+repo-rev = "c5d7d9dfa5ba4479efa806d9d1d3260981471c63"
 repo-url = "https://github.com/aaronpeikert/upstream.jl"
 uuid = "dfa7368c-5b78-4bda-9dde-69676b7aee7c"
 version = "0.1.0"
