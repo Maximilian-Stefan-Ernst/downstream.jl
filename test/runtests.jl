@@ -1,5 +1,9 @@
 using Test, downstream
 
-@test down_f(3.0) == 9.0
+@testset "down_f" begin
+    @test down_f(3.0) == 9.0
+end
 
-@test down_g(3.0) == 6.0
+@testset "down_g" begin
+    @test down_g(3.0) == 6.0
+end

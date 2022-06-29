@@ -2,3 +2,6 @@ name = "downstream"
 uuid = "882ab952-99de-4124-8a33-bda3f2226f06"
 authors = ["maximilian <maximilian.stefan.ernst@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+upstream = "dfa7368c-5b78-4bda-9dde-69676b7aee7c"
